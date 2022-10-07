@@ -18,12 +18,12 @@ xs = range(-10, 11)
 actuals = [derivative(x) for x in xs]
 estimates = [difference_quotient(square, x, h = 0.001) for x in xs]
 # построение графика
-'''
+
 plt.title("Фактические производные и их оценки")
 plt.plot(xs, actuals, 'rx', label = 'Факт') # красный x
 plt.plot(xs, estimates, 'b+', label = 'Оценка') # синий +
 plt.legend(loc = 9)
-plt.show()'''
+plt.show()
 
 
 # Частное разностное отношение

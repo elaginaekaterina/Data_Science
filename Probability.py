@@ -35,7 +35,7 @@ print("P(both | older):", both_girls / older_girl)
 print("both | either)", both_girls / either_girl)
 
 
-# __________Непрерывные распредеения____________
+# __________Непрерывные распределения____________
 
 # функция плотности вероятности равномерного распределения:
 def uniform_pdf(x: float) -> float:
